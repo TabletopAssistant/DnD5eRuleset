@@ -1,0 +1,4 @@
+github "TabletopAssistant/DiceKit" "d23e4bd12282f2714fed42acff9bde328bf5c760"
+github "Quick/Nimble" "371f9699af53d50b26186f6700166116fb26c8e6"
+github "typelift/SwiftCheck" "4f74ca9d81faf822e10d81c9b22aa27478c64986"
+github "mrackwitz/xcconfigs" "bd51f1f617d688f4a00f1ea9d6b1e87a24104592"
