@@ -12,6 +12,9 @@
 		5374A3A61B66EDEA00D068DE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A3A51B66EDEA00D068DE /* Nimble.framework */; };
 		5374A3A81B66EDEC00D068DE /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A3A71B66EDEC00D068DE /* SwiftCheck.framework */; };
 		5374A3B51B66F01C00D068DE /* DiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A3B41B66F01C00D068DE /* DiceKit.framework */; };
+		5374A3B71B66F0E900D068DE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3B61B66F0E900D068DE /* Character.swift */; };
+		5374A3B91B66F2D700D068DE /* Character.Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3B81B66F2D700D068DE /* Character.Information.swift */; };
+		5374A3BB1B66F3FA00D068DE /* Character.Information_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3BA1B66F3FA00D068DE /* Character.Information_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		5374A3AF1B66EE6500D068DE /* DnD5eRulesetTests.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DnD5eRulesetTests.Debug.xcconfig; sourceTree = "<group>"; };
 		5374A3B01B66EE6500D068DE /* DnD5eRulesetTests.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DnD5eRulesetTests.Release.xcconfig; sourceTree = "<group>"; };
 		5374A3B41B66F01C00D068DE /* DiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5374A3B61B66F0E900D068DE /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		5374A3B81B66F2D700D068DE /* Character.Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.Information.swift; sourceTree = "<group>"; };
+		5374A3BA1B66F3FA00D068DE /* Character.Information_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.Information_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				5374A3B11B66EEB000D068DE /* Supporting Files */,
+				5374A3B61B66F0E900D068DE /* Character.swift */,
+				5374A3B81B66F2D700D068DE /* Character.Information.swift */,
 				5374A38D1B66ECEC00D068DE /* DnD5eRuleset.h */,
 			);
 			path = DnD5eRuleset;
@@ -96,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5374A3B21B66EED200D068DE /* Supporting Files */,
+				5374A3BA1B66F3FA00D068DE /* Character.Information_Tests.swift */,
 			);
 			path = DnD5eRulesetTests;
 			sourceTree = "<group>";
@@ -255,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5374A3B91B66F2D700D068DE /* Character.Information.swift in Sources */,
+				5374A3B71B66F0E900D068DE /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5374A3BB1B66F3FA00D068DE /* Character.Information_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
