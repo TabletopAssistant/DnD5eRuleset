@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536168C11B6988F900198621 /* MovementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536168C01B6988F900198621 /* MovementType.swift */; };
 		5374A38E1B66ECEC00D068DE /* DnD5eRuleset.h in Headers */ = {isa = PBXBuildFile; fileRef = 5374A38D1B66ECEC00D068DE /* DnD5eRuleset.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5374A3951B66ECEC00D068DE /* DnD5eRuleset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A38A1B66ECEC00D068DE /* DnD5eRuleset.framework */; };
 		5374A3A61B66EDEA00D068DE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A3A51B66EDEA00D068DE /* Nimble.framework */; };
 		5374A3A81B66EDEC00D068DE /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A3A71B66EDEC00D068DE /* SwiftCheck.framework */; };
 		5374A3B51B66F01C00D068DE /* DiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374A3B41B66F01C00D068DE /* DiceKit.framework */; };
+		5374A3BB1B66F3FA00D068DE /* Character.Information_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3BA1B66F3FA00D068DE /* Character.Information_Tests.swift */; };
+		5374A3BD1B66FF8100D068DE /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3BC1B66FF8100D068DE /* Race.swift */; };
+		5374A3BF1B66FFA200D068DE /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3BE1B66FFA200D068DE /* Class.swift */; };
+		5374A3C11B671BDA00D068DE /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374A3C01B671BDA00D068DE /* Spell.swift */; };
+		53D464551B6973320075D435 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D464541B6973320075D435 /* Distance.swift */; };
+		53D464571B6979A00075D435 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D464561B6979A00075D435 /* Duration.swift */; };
+		53D464591B697CA90075D435 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D464581B697CA90075D435 /* ActionType.swift */; };
+		53F33B711B698D7D00991AC4 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F33B701B698D7D00991AC4 /* Ability.swift */; };
+		53F33B731B69979200991AC4 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F33B721B69979200991AC4 /* Creature.swift */; };
+		53F33B771B6AE01200991AC4 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F33B761B6AE01200991AC4 /* Skill.swift */; };
+		53F33B791B6AE36300991AC4 /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F33B781B6AE36300991AC4 /* Armor.swift */; };
+		53F33B7B1B6AE5E400991AC4 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F33B7A1B6AE5E400991AC4 /* Weight.swift */; };
+		53F33B7D1B6AE9AC00991AC4 /* ActionTimeCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F33B7C1B6AE9AC00991AC4 /* ActionTimeCost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		536168C01B6988F900198621 /* MovementType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementType.swift; sourceTree = "<group>"; };
 		5374A38A1B66ECEC00D068DE /* DnD5eRuleset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DnD5eRuleset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5374A38D1B66ECEC00D068DE /* DnD5eRuleset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnD5eRuleset.h; sourceTree = "<group>"; };
 		5374A38F1B66ECEC00D068DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +54,19 @@
 		5374A3AF1B66EE6500D068DE /* DnD5eRulesetTests.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DnD5eRulesetTests.Debug.xcconfig; sourceTree = "<group>"; };
 		5374A3B01B66EE6500D068DE /* DnD5eRulesetTests.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DnD5eRulesetTests.Release.xcconfig; sourceTree = "<group>"; };
 		5374A3B41B66F01C00D068DE /* DiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5374A3BA1B66F3FA00D068DE /* Character.Information_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.Information_Tests.swift; sourceTree = "<group>"; };
+		5374A3BC1B66FF8100D068DE /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		5374A3BE1B66FFA200D068DE /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		5374A3C01B671BDA00D068DE /* Spell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		53D464541B6973320075D435 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		53D464561B6979A00075D435 /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		53D464581B697CA90075D435 /* ActionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
+		53F33B701B698D7D00991AC4 /* Ability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
+		53F33B721B69979200991AC4 /* Creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		53F33B761B6AE01200991AC4 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		53F33B781B6AE36300991AC4 /* Armor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
+		53F33B7A1B6AE5E400991AC4 /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		53F33B7C1B6AE9AC00991AC4 /* ActionTimeCost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTimeCost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +115,20 @@
 			isa = PBXGroup;
 			children = (
 				5374A3B11B66EEB000D068DE /* Supporting Files */,
+				53F33B701B698D7D00991AC4 /* Ability.swift */,
+				53F33B7C1B6AE9AC00991AC4 /* ActionTimeCost.swift */,
+				53D464581B697CA90075D435 /* ActionType.swift */,
+				53F33B781B6AE36300991AC4 /* Armor.swift */,
+				53D464561B6979A00075D435 /* Duration.swift */,
+				53D464541B6973320075D435 /* Distance.swift */,
+				5374A3BE1B66FFA200D068DE /* Class.swift */,
+				53F33B721B69979200991AC4 /* Creature.swift */,
 				5374A38D1B66ECEC00D068DE /* DnD5eRuleset.h */,
+				5374A3BC1B66FF8100D068DE /* Race.swift */,
+				53F33B761B6AE01200991AC4 /* Skill.swift */,
+				5374A3C01B671BDA00D068DE /* Spell.swift */,
+				536168C01B6988F900198621 /* MovementType.swift */,
+				53F33B7A1B6AE5E400991AC4 /* Weight.swift */,
 			);
 			path = DnD5eRuleset;
 			sourceTree = "<group>";
@@ -96,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				5374A3B21B66EED200D068DE /* Supporting Files */,
+				5374A3BA1B66F3FA00D068DE /* Character.Information_Tests.swift */,
 			);
 			path = DnD5eRulesetTests;
 			sourceTree = "<group>";
@@ -255,6 +297,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				536168C11B6988F900198621 /* MovementType.swift in Sources */,
+				5374A3C11B671BDA00D068DE /* Spell.swift in Sources */,
+				5374A3BF1B66FFA200D068DE /* Class.swift in Sources */,
+				53F33B7D1B6AE9AC00991AC4 /* ActionTimeCost.swift in Sources */,
+				53F33B791B6AE36300991AC4 /* Armor.swift in Sources */,
+				53D464591B697CA90075D435 /* ActionType.swift in Sources */,
+				5374A3BD1B66FF8100D068DE /* Race.swift in Sources */,
+				53F33B711B698D7D00991AC4 /* Ability.swift in Sources */,
+				53D464571B6979A00075D435 /* Duration.swift in Sources */,
+				53F33B771B6AE01200991AC4 /* Skill.swift in Sources */,
+				53F33B731B69979200991AC4 /* Creature.swift in Sources */,
+				53D464551B6973320075D435 /* Distance.swift in Sources */,
+				53F33B7B1B6AE5E400991AC4 /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5374A3BB1B66F3FA00D068DE /* Character.Information_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
