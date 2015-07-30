@@ -3,7 +3,7 @@
 //  DnD5eRuleset
 //
 //  Created by Brentley Jones on 7/27/15.
-//  Copyright © 2015 DnD5eRuleset. All rights reserved.
+//  Copyright © 2015 Brentley Jones. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
