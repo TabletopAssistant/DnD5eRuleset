@@ -1,0 +1,6 @@
+#include "../base/Target/Universal/Framework.Universal.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = org.tabletopassistant.DnD5eRuleset
+PRODUCT_NAME = DnD5eRuleset
+
+INFOPLIST_FILE = DnD5eRuleset/Info.plist
